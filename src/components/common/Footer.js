@@ -148,7 +148,7 @@ const Footer = () => {
             })}
           </div>
           <div className=" text-richblack-300">
-            Made by ❤️ Ankan © 2023 Studynotion
+            Made by ❤️ Sudipta Saha © 2023 Studynotion
           </div>
         </div>
       </div>

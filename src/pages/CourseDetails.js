@@ -183,6 +183,7 @@ const CourseDetails = () => {
                       user?._id
                     ) && (
                       <button
+                        type="button"
                         className="rounded-md py-2 px-3 font-semibold border border-richblack-700 bg-richblack-800 text-richblack-100"
                         onClick={handleAddToCart}
                       >
