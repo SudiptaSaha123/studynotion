@@ -34,7 +34,7 @@ exports.resetPasswordToken = async (req, res) => {
     // Create Url
     // const url = `http://localhost:3000/update-password/${token}`;
     
-    const url = `${process.env.REACT_BASE_URL}/resetPassword/${token}`
+    const url = `https://studynotion-puce.vercel.app/update-password/${token}`
 
 
     // Send mail containing the url
