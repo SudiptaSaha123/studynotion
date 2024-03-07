@@ -98,7 +98,7 @@ const CourseDetails = () => {
     }
 
     if (token) {
-      dispatch(addToCart);
+      dispatch(addToCart(response.courseDetails));
       return;
     }
 
